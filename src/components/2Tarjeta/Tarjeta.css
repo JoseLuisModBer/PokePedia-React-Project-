@@ -16,57 +16,57 @@
 }
 
 .darkTarjeta {
-  background: url(./Recursos/gifs/dark.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/dark.gif) center/cover no-repeat;
 }
 .dragonTarjeta {
-  background: url(./Recursos/gifs/dragon.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/dragon.gif) center/cover no-repeat;
 }
 .electricTarjeta {
-  background: url(./Recursos/gifs/electric.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/electric.gif) center/cover no-repeat;
 }
 .fairyTarjeta {
-  background: url(./Recursos/gifs/fairy.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/fairy.gif) center/cover no-repeat;
 }
 .fightingTarjeta {
-  background: url(./Recursos/gifs/fight.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/fight.gif) center/cover no-repeat;
 }
 .fireTarjeta {
-  background: url(./Recursos/gifs/fire.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/fire.gif) center/cover no-repeat;
 }
 .flyingTarjeta {
-  background: url(./Recursos/gifs/flight.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/flight.gif) center/cover no-repeat;
 }
 .ghostTarjeta {
-  background: url(./Recursos/gifs/ghost.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/ghost.gif) center/cover no-repeat;
 }
 .grassTarjeta,
 .bugTarjeta {
   background: url(/Recursos/gifs/grass.gif) center/cover no-repeat;
 }
 .groundTarjeta {
-  background: url(./Recursos/gifs/ground.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/ground.gif) center/cover no-repeat;
 }
 .iceTarjeta {
-  background: url(./Recursos/gifs/ice.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/ice.gif) center/cover no-repeat;
 }
 .normalTarjeta {
-  background: url(./Recursos/gifs/normal.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/normal.gif) center/cover no-repeat;
 }
 .poisonTarjeta {
-  background: url(./Recursos/gifs/poison.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/poison.gif) center/cover no-repeat;
 }
 .psychicTarjeta {
-  background: url(./Recursos/gifs/psique.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/psique.gif) center/cover no-repeat;
 }
 .rockTarjeta {
-  background: url(./Recursos/gifs/rock.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/rock.gif) center/cover no-repeat;
 }
 .steelTarjeta {
-  background: url(./Recursos/gifs/steel.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/steel.gif) center/cover no-repeat;
 }
 .waterTarjeta,
 .stellarTarjeta {
-  background: url(./Recursos/gifs/water.gif) center/cover no-repeat;
+  background: url(/Recursos/gifs/water.gif) center/cover no-repeat;
 }
 
 /*-------------------NOMBRE-WEIGHT-HEIGHT-----------------------*/
