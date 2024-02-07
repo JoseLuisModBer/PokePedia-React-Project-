@@ -2,7 +2,7 @@
 
 "PokePedia by ModBer".
 
-- Visita el deployd del proyecto en [Netlify]().
+- Visita el deployd del proyecto en [Netlify](https://pokepedia2024.netlify.app/).
 
 ## Índice
 
