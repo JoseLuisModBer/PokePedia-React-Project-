@@ -157,7 +157,7 @@ export const PokePedia = () => {
             value={pokemonFromForm}
             onChange={(e) => setPokemonFromForm(e.target.value)}
             required
-            placeholder="Busca por nombre o nº..."
+            placeholder="Search by name / nº..."
           />
           <button type="submit">
             <img src="./Recursos/imagenes/pokeball-icon-2.png" alt="Search" />

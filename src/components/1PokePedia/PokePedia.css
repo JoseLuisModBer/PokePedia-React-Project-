@@ -76,7 +76,7 @@ div#reloadButtonContainer {
 
 @media (max-width: 400px) {
   section.formulario-buscar-pokemon > form.search > input {
-    width: 200px;
+    width: 230px;
     padding: 0.5rem 1rem;
     margin-right: 1rem;
     border-radius: 5px;

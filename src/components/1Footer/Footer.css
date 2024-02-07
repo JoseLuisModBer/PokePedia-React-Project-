@@ -15,8 +15,14 @@
 }
 
 /*-------------------RESPONSIVE-----------------------*/
-@media (max-width: 440px) {
+@media (max-width: 485px) {
   footer > p {
     font-size: 17px !important;
+  }
+}
+
+@media (max-width: 485px) {
+  footer > p {
+    font-size: 16px !important;
   }
 }

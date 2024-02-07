@@ -3,6 +3,7 @@
 ******************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
   --blue: #1f5eb5;
@@ -47,7 +48,11 @@ input,
 a,
 li,
 button {
-  font-family: Gaegu;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 2px;
+  /*   font-family: Gaegu; */
 }
 
 button {
@@ -55,13 +60,15 @@ button {
 }
 
 h1 {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 20px;
 }
 
 h2 {
   color: var(--fighting);
-  font-size: 35px;
   text-decoration: underline;
+  /* font-size: 35px; */
+  font-size: 30px;
 }
 
 p,
@@ -70,13 +77,15 @@ td,
 #types-container > span,
 button,
 li {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 20px;
 }
 
 a {
   color: #000;
-  font-size: 30px;
   text-decoration: dashed;
+  /* font-size: 30px; */
+  font-size: 25px;
 }
 
 a:hover {
@@ -85,7 +94,7 @@ a:hover {
 }
 
 input::placeholder {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Ocultando vs mostrando elementos + animaciones*/
@@ -113,11 +122,13 @@ input::placeholder {
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 20px;
+    /*  font-size: 20px; */
+    font-size: 15px;
   }
 
   h2 {
-    font-size: 30px;
+    /*  font-size: 30px; */
+    font-size: 25px;
   }
 
   p,
@@ -126,6 +137,7 @@ input::placeholder {
   #types-container > span,
   button,
   li {
-    font-size: 20px;
+    /*    font-size: 20px; */
+    font-size: 15px;
   }
 }
