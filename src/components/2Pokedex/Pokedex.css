@@ -1,0 +1,87 @@
+/*------------------POKEDEX GIF------------------------*/
+
+#pokedex {
+  margin-top: 2rem;
+}
+
+#pokedex > div {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedex > div > img#pokedexGif {
+  width: 75%;
+  margin-bottom: 57px;
+}
+
+#pokedex > div > img#pokedexGifError {
+  width: 37.5%;
+}
+
+/*------------------RESPONSIVE------------------------*/
+
+@media (max-width: 850px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 39%;
+  }
+}
+
+@media (max-width: 800px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 41%;
+  }
+}
+
+@media (max-width: 750px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 44%;
+  }
+}
+
+@media (max-width: 700px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 47%;
+  }
+}
+
+@media (max-width: 650px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 51%;
+  }
+}
+
+@media (max-width: 600px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 55.5%;
+  }
+}
+
+@media (max-width: 550px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 60.5%;
+  }
+}
+
+@media (max-width: 500px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 67%;
+  }
+}
+
+@media (max-width: 450px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 71%;
+  }
+}
+
+@media (max-width: 400px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 75%;
+  }
+}
+
+@media (max-width: 350px) {
+  #pokedex > div > img#pokedexGifError {
+    width: 76%;
+  }
+}

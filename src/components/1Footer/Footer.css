@@ -1,0 +1,22 @@
+/*************
+*** FOOTER ***
+**************/
+
+.app > footer {
+  background-color: var(--red);
+  padding: 1rem 1rem;
+}
+
+.app > footer > p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*-------------------RESPONSIVE-----------------------*/
+@media (max-width: 440px) {
+  footer > p {
+    font-size: 17px !important;
+  }
+}

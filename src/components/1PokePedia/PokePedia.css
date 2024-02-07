@@ -1,0 +1,88 @@
+/*------------------------------------------*/
+
+/***********
+*** MAIN ***
+***********/
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*--------------------FORM----------------------*/
+
+section.formulario-buscar-pokemon > form.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+section.formulario-buscar-pokemon > form.search > input {
+  width: 250px;
+  height: 45px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+section.formulario-buscar-pokemon > form.search > button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: none;
+  display: inline;
+}
+
+section.formulario-buscar-pokemon > form.search > button > img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+  margin-top: 10px;
+}
+
+section.formulario-buscar-pokemon > form.search > button > img:hover {
+  transform: rotate(45deg);
+}
+
+/*-------------------BOTÓN DE REINICIO-----------------------*/
+
+div#reloadButtonContainer {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#reloadButtonContainer > button {
+  border-radius: 10px;
+  padding: 0.3rem 1rem 0.5rem 1rem;
+  background-color: var(--red);
+  color: #fff;
+}
+
+#reloadButtonContainer > button:hover {
+  box-shadow: 5px 5px 10px black;
+  background-color: var(--lightRedButton);
+}
+
+/*------------------RESPONSIVE------------------------*/
+
+@media (max-width: 900px) {
+  div#reloadButtonContainer {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  section.formulario-buscar-pokemon > form.search > input {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+  }
+
+  input::placeholder {
+    font-size: 15px;
+  }
+}
