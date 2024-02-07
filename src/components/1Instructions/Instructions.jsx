@@ -16,7 +16,7 @@ export const Instructions = () => {
         <h2>Instructions:</h2>
         <p>
           Welcome to Pokepedia. Here you will find all the knowledge stored by
-          generations and generations of Pokémon trainers.
+          generations and generations of Pokemon trainers.
         </p>
         <p>Using Pokepedia is very easy. Just follow these simple steps:</p>
         <ol>
@@ -27,12 +27,12 @@ export const Instructions = () => {
           <li>
             A successful search means that the pokémon exists. You will be shown
             a card with the name, weight, height, type and other information
-            about each pokémon, as well as one or more images of the pokémon.
+            about each pokémon, as well as one or more images of the pokemon.
           </li>
         </ol>
         <p>
           Now there&apos;s nothing to stop you! Remember to take care of your
-          pokémon and other people&apos;s pokémon ^^
+          pokemon and other people&apos;s pokemon ^^
         </p>
       </section>
       <div className="separador"></div>
@@ -40,7 +40,7 @@ export const Instructions = () => {
         <h2>Instrucciones:</h2>
         <p>
           Bienvenido/a a la Pokepedia. Aquí encontrarás todo el conocimiento
-          almacenado por generaciones y generaciones de entrenadores pokémon.
+          almacenado por generaciones y generaciones de entrenadores pokemon.
         </p>
         <p>
           Usar la Pokepedia es muy fácil. Basta con seguir estos sencillos
@@ -51,11 +51,11 @@ export const Instructions = () => {
             Utiliza el buscador para introducir el número o el nombre de un
             pokemon.
           </li>
-          <li>Pulsa en el icono de la pokéball para buscar.</li>
+          <li>Pulsa en el icono de la pokeball para buscar.</li>
           <li>
-            Si la búsqueda ha sido exitosa significa que dicho pokémon existe.
+            Si la búsqueda ha sido exitosa significa que dicho pokemon existe.
             Se te mostrará una tarjeta con el nombre, peso, altura, tipo y demás
-            datos de cada pokémon, así como una o varias imágnes del mismo.
+            datos de cada pokemon, así como una o varias imágenes del mismo.
           </li>
         </ol>
         <p>

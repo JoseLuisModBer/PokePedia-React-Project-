@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin: 3rem;
+  padding: 0 15rem;
 }
 
 #imagen-instrucciones {
@@ -22,7 +23,7 @@ div#goToPokepediaButtonContainer {
 
 #goToPokepediaButtonContainer > a > button {
   border-radius: 10px;
-  padding: 0.3rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: var(--red);
   color: #fff;
 }
@@ -33,6 +34,23 @@ div#goToPokepediaButtonContainer {
 }
 
 /*------------RESPONSIVE---------------------*/
+@media (max-width: 1500px) {
+  .main-instructions {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-instructions {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-instructions {
+    padding: 0rem;
+  }
+}
 
 @media (max-width: 900px) {
   #imagen-instrucciones {

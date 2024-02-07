@@ -85,6 +85,8 @@ section#contenedor-nombre-y-foto-pokemon > div.container-name {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   border-radius: 10px;
+  border: 2px solid var(--blue);
+  box-shadow: 2px 2px 10px var(--blue);
 }
 
 section#contenedor-nombre-y-foto-pokemon > div.container-name > h1,
@@ -119,11 +121,13 @@ section#contenedor-nombre-y-foto-pokemon
 }
 
 #types-container > span {
-  margin: 0.5rem 0.3rem;
-  padding: 0.3rem 1rem 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   font-weight: bold;
   color: #fff;
+  border: 2px solid var(--blue);
+  box-shadow: 2px 2px 10px black;
 }
 
 .dark {

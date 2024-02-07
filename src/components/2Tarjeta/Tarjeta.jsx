@@ -35,6 +35,8 @@ export const Tarjeta = (props) => {
     speedTableValue,
   } = props;
 
+  const pokemonNameUpperCamelCase = pokemonName.toUpperCase();
+
   return (
     <div
       id="tarjeta-container"
@@ -45,7 +47,7 @@ export const Tarjeta = (props) => {
         <section id="contenedor-nombre-y-foto-pokemon">
           <div className="container-name">
             <h1 id="pokemon-name-h1" ref={tarjetaNameRef}>
-              {pokemonName}
+              {pokemonNameUpperCamelCase}
             </h1>
             <p id="pokemon-weight-height" ref={tarjetaWeightHeightRef}>
               {pokemonWeightAndHeight}
