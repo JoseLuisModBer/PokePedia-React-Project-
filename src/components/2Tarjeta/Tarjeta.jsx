@@ -35,7 +35,10 @@ export const Tarjeta = (props) => {
     speedTableValue,
   } = props;
 
-  const pokemonNameUpperCamelCase = pokemonName.toUpperCase();
+  /* Pongo en mayúsculas el nombre del pokemon */
+  const pokemonNameUpperCamelCase = pokemonName
+    ? pokemonName.toUpperCase()
+    : '';
 
   return (
     <div
