@@ -16,7 +16,7 @@ export const Header = () => {
       </NavLink>
       <div id="menu-header">
         <NavLink className="menu-button-1" to="/">
-          Modo de juego
+          Pokepedia
         </NavLink>
         <p className="menu-divider">|</p>
         <NavLink className="menu-button-2" to="instructions">
