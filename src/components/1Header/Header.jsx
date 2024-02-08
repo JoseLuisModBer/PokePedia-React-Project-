@@ -20,7 +20,7 @@ export const Header = () => {
         </NavLink>
         <p className="menu-divider">|</p>
         <NavLink className="menu-button-2" to="instructions">
-          Instrucciones
+          Instructions
         </NavLink>
       </div>
     </header>
