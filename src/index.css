@@ -82,15 +82,20 @@ li {
 }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: dashed;
   /* font-size: 30px; */
   font-size: 25px;
+  cursor: pointer;
 }
 
 a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: underline;
+}
+
+.menu-divider {
+  color: #fff;
 }
 
 input::placeholder {
